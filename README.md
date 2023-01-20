@@ -1,1 +1,1 @@
-Documentations on software toolkits and concepts for dummies like me.
+Documentations on software toolkit and concepts for dummies like me.
