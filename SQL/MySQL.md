@@ -1,6 +1,6 @@
 # MySQL
 
-[The Ultimate MySQL Bootcamp: Go from SQL Beginner to Expert](https://www.udemy.com/share/101Wiw3@az0LA2LPO45cpQXsdRbsSMp2Q7UszLZcDpBiF_PXc5bZhyRPyFXRCPVQMV-gr0Onsg==/)
+[Udemy course: The Ultimate MySQL Bootcamp: Go from SQL Beginner to Expert](https://www.udemy.com/share/101Wiw3@az0LA2LPO45cpQXsdRbsSMp2Q7UszLZcDpBiF_PXc5bZhyRPyFXRCPVQMV-gr0Onsg==/)
 
 ---
 **database**
