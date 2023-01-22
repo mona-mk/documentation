@@ -1,1 +1,0 @@
-Documentations on software toolkit and concepts for dummies like me.
