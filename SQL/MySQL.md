@@ -670,13 +670,3 @@ with this for instance you can have quantiles like NTILE(4), will tell for each 
 **LEAD() and LAG()**
 
 get the diff between two consecutive rows
-
----
-**TODO**
-
-There are still topics that are were not covered in the course:
-* DO block
-* PL/pgSQL language
-* SQL user defined functions
-* With statements WITH common_table_expression
-* UNION / UNION ALL
