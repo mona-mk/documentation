@@ -13,7 +13,7 @@ For bokeh plots, you can easily use jupyter notebooks. But for bokeh server, it 
 ---
 `dir(object)`, `dir(bokeh.models.tools)` to get all methods of object, for instance all methods of figure object
 
-Everything that has to do with interactivity and dynamic actions, you need to use a native bokeh data structure called ColumnDataSource. Pandas has limitations here, and interactive features like tooltip won’t work with pandas dataframes as input.
+Everything that has to do with interactivity and dynamic actions, you need to use a native bokeh data structure called `ColumnDataSource`. Pandas has limitations here, and interactive features like tooltip won’t work with pandas dataframes as input.
 
 ---
 **Sample data**
