@@ -551,6 +551,25 @@ FROM
 You don’t need a subquery here, you can just have join after join
 
 ---
+**UNION**
+
+JOIN in SQL is used to combine data from many tables based on a matched condition between them. The data combined using JOIN statement results into new columns. However, UNION in SQL is used to combine the result of two or more SELECT statements. The data combined using UNION statement is new distinct rows. **UNION ALL** gives all rows (not just the distinct values). In UNION we can have two SELECT statements from the same table.
+
+| JOIN | UNION |
+| ----------- | ----------- |
+| combines data from many tables based on a matched condition between them | SQL combines the result of two or more SELECT statements |
+| combines data into new columns | combines data into new rows |
+| number of columns selected from each table may not be same | Number of columns selected from each table should be same |
+| datatypes of corresponding columns selected from each table can be different | Datatypes of corresponding columns selected from each table should be same |
+| may not return distinct columns | returns distinct rows (UNION ALL returns all rows) |
+
+```
+SELECT Name FROM Boys WHERE Rollno < 16 
+UNION
+SELECT Name FROM Girls WHERE Rollno > 9 
+```
+
+---
 **IFNULL**
 
 if it is null, replace it `IFNULL(SUM(col), 0)`
