@@ -1,7 +1,5 @@
 # Scrum framework
 
-[The Scrum Framework (Scrum Academy explains Agile)](https://youtu.be/wxbjCSEyq2I)
-
 Every scrum initiative starts with an idea. In most cases that idea comes from a group that we call stakeholders. That group of stakeholders or a subset of that group also provides a budget. Budget and idea are handed over to the scrum team or specifically the product owner. Every product owner has one goal and one goal only: build a product that makes as many stakeholders as happy as possible.
 
 In order to achieve this a product owner needs support. That’s where the developers come in. Product owner decides what to build, developers decide how to build from a technical perspective. One thing is missing, someone that works on how we collaborate as a group, how we become more effective as a team, that someone is the scrum master.
@@ -51,7 +49,8 @@ The final meeting is the sprint retrospective. Compared to review where our focu
 
 After retrospective, we would ideally start the next sprint. At this stage, our backlog, after previous sprint planning is not anymore up to date, therefore, in order to solve this, we do frequent and regular product backlog refinement. Product backlog refinement happens throughout the delivery phase of previous sprint.
 
-
-
+---
+**References**
+1. [The Scrum Framework (Scrum Academy explains Agile)](https://youtu.be/wxbjCSEyq2I)
 
 
