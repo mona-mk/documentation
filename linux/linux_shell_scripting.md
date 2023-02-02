@@ -1,6 +1,4 @@
 # Linux shell scripting
-[Udemy course - Linux shell scripting: a project-based approach to learning](https://www.udemy.com/share/1014QM3@-Vtd5Zu5dVsxMOpM4_cw4ar0SdV-3MDRXydWwP-G6URdN7Z9cUfUf6F13RsWhZ91ug==/)
-
 A shell script is a text file that when you run it, it will run each line one by one like you would do on the command line, line by line copy pasting those.
 
 * Write a shell script for things that you rarely do, so that each time you don't have to again check what you needed to do!
@@ -1064,4 +1062,5 @@ Keeping to this convention, you can rest assured that you don't need to know eve
 2. `export my_var="something"` pushes variables out to other scripts/processes which are called/started from the current script/process.
 
 ---
-
+**References**
+1. [Udemy course - Linux shell scripting: a project-based approach to learning](https://www.udemy.com/share/1014QM3@-Vtd5Zu5dVsxMOpM4_cw4ar0SdV-3MDRXydWwP-G6URdN7Z9cUfUf6F13RsWhZ91ug==/)
