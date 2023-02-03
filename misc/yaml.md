@@ -59,7 +59,7 @@ singlelineString: >
 ```
 * you can access environment variable with `$` sign
 * you can use placeholders `{{ somevalue }}`, and the value gets replaced by a template generated (the same concept is used in ansible)
-* you can have multiple components inside the same yaml and you can separate them with `---`
+* you can have multiple components inside the same yaml and you can separate them with `---`. This is for instance very useful in Kubernetes where you want to put multiple components inside a single yaml.
 
 ---
 **references**
