@@ -7,3 +7,8 @@ In systems, clients and servers communicate together in which client requests an
 Duck typing in computer programming is an application of the duck test—"If it walks like a duck and it quacks like a duck, then it must be a duck"—to determine whether an object can be used for a particular purpose. With nominative typing, an object is of a given type if it is declared to be (or if a type's association with the object is inferred through mechanisms such as object inheritance). In duck typing, an object is of a given type if it has all methods and properties required by that type.
 
 ---
+**serialisation**
+
+Serialisation is the process of translating a data structure or object state into a format that can be stored or transmitted and reconstructed later, possibly in a different computer environment. A serialisation language means that applications written in different languages which have different data structures, can transfer data between each other using a common agreed on standard format (like JSON, XML, YAML)
+
+---
