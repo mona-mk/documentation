@@ -80,9 +80,11 @@ if args.command == 'login':
   print(args.username)
 elif args.command == 'register':
   print(args.email, args.username)
+print(args)
 
 # command-line
 python example.py login --username mona --password pass
+# Namespace(command='login', username='mona', password='pass')
 ```
 
 ---
