@@ -1,0 +1,7 @@
+# Infrastructure as Code
+
+Simply put, IaCs are tools that make the life of a devOps engineer easier in provisioning, configuration, deployment and orchestration. Or even simpler, say you need to create a user on all your databases, instead of doing it manually on each database, you can configure this in one of IaC tools with few lines of code. Example of such tools are Ansible & Terraform. Each tool has its own strength and weakness:
+
+> Chef, Puppet, Ansible, and SaltStack are all configuration management tools, which means they are designed to install and manage software on existing servers. CloudFormation and Terraform are provisioning tools, which means they are designed to provision the servers themselves (as well as the rest of your infrastructure, like load balancers, databases, networking configuration, etc), leaving the job of configuring those servers to other tools. These two categories are not mutually exclusive, as most configuration management tools can do some degree of provisioning and most provisioning tools can do some degree of configuration management. But the focus on configuration management or provisioning means that some of the tools are going to be a better fit for certain types of tasks.
+
+> Provisioning is the process of setting up IT infrastructure. It can also refer to the steps required to manage access to data and resources, and make them available to users and systems. Once something has been provisioned, the next step is configuration.
