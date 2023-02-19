@@ -180,3 +180,9 @@ poetry.toml
 .ionide
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode
+
+### Obsidian ###
+# config dir
+.obsidian/
+
+# End of https://www.toptal.com/developers/gitignore/api/obsidian
