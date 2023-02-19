@@ -94,6 +94,18 @@ When you restart or remove a container, data is lost. Docker volumes are typical
 Above examples where using the docker run command, but the same applies using docker compose as well. When you name the volumes, you can then share this volume between multiple containers in your yaml file by just referencing the name. Note that at the end of the yaml file you list all the volumes.
 
 ---
+**docker cleanup**
+```
+# To clear containers:
+docker rm -f $(docker ps -a -q)
+# To clear images:
+docker rmi -f $(docker images -a -q)
+# To clear volumes:
+docker volume rm $(docker volume ls -q)
+# To clear networks:
+docker network rm $(docker network ls | tail -n+2 | awk '{if($2 !~ /bridge|none|host/){ print $1 }}')
+```
+---
 **reference**
 1. [Dockerfile Tutorial - Docker in Practice || Docker Tutorial 10](https://youtu.be/WmcdMiyqfZs)
 2. [Docker Volumes explained in 6 minutes](https://youtu.be/p2PH_YPCsis)
